@@ -1,31 +1,19 @@
 {
   "files": {
-    "main.css": "/Webbb3/react-car-data-table/static/css/main.171376f7.chunk.css",
-    "main.js": "/Webbb3/react-car-data-table/static/js/main.3dea9a65.chunk.js",
-    "main.js.map": "/Webbb3/react-car-data-table/static/js/main.3dea9a65.chunk.js.map",
-    "runtime-main.js": "/Webbb3/react-car-data-table/static/js/runtime-main.c06544d2.js",
-    "runtime-main.js.map": "/Webbb3/react-car-data-table/static/js/runtime-main.c06544d2.js.map",
-    "static/js/2.da97b454.chunk.js": "/Webbb3/react-car-data-table/static/js/2.da97b454.chunk.js",
-    "static/js/2.da97b454.chunk.js.map": "/Webbb3/react-car-data-table/static/js/2.da97b454.chunk.js.map",
-    "static/js/3.ca76a299.chunk.js": "/Webbb3/react-car-data-table/static/js/3.ca76a299.chunk.js",
-    "static/js/3.ca76a299.chunk.js.map": "/Webbb3/react-car-data-table/static/js/3.ca76a299.chunk.js.map",
-    "static/js/4.f1d34398.chunk.js": "/Webbb3/react-car-data-table/static/js/4.f1d34398.chunk.js",
-    "static/js/4.f1d34398.chunk.js.map": "/Webbb3/react-car-data-table/static/js/4.f1d34398.chunk.js.map",
-    "static/js/5.9c7f5941.chunk.js": "/Webbb3/react-car-data-table/static/js/5.9c7f5941.chunk.js",
-    "static/js/5.9c7f5941.chunk.js.map": "/Webbb3/react-car-data-table/static/js/5.9c7f5941.chunk.js.map",
-    "index.html": "/Webbb3/react-car-data-table/index.html",
-    "precache-manifest.33d23a35fbb53e1b3108e6738b95f68d.js": "/Webbb3/react-car-data-table/precache-manifest.33d23a35fbb53e1b3108e6738b95f68d.js",
-    "service-worker.js": "/Webbb3/react-car-data-table/service-worker.js",
-    "static/css/main.171376f7.chunk.css.map": "/Webbb3/react-car-data-table/static/css/main.171376f7.chunk.css.map",
-    "static/js/2.da97b454.chunk.js.LICENSE.txt": "/Webbb3/react-car-data-table/static/js/2.da97b454.chunk.js.LICENSE.txt",
-    "static/js/3.ca76a299.chunk.js.LICENSE.txt": "/Webbb3/react-car-data-table/static/js/3.ca76a299.chunk.js.LICENSE.txt",
-    "static/js/4.f1d34398.chunk.js.LICENSE.txt": "/Webbb3/react-car-data-table/static/js/4.f1d34398.chunk.js.LICENSE.txt",
-    "static/js/5.9c7f5941.chunk.js.LICENSE.txt": "/Webbb3/react-car-data-table/static/js/5.9c7f5941.chunk.js.LICENSE.txt"
+    "main.css": "/react-car-data-table/static/css/main.dd48d835.css",
+    "main.js": "/react-car-data-table/static/js/main.ff9cf40d.js",
+    "static/js/498.7a7d2592.chunk.js": "/react-car-data-table/static/js/498.7a7d2592.chunk.js",
+    "static/js/703.506b844b.chunk.js": "/react-car-data-table/static/js/703.506b844b.chunk.js",
+    "static/js/478.c4192677.chunk.js": "/react-car-data-table/static/js/478.c4192677.chunk.js",
+    "index.html": "/react-car-data-table/index.html",
+    "main.dd48d835.css.map": "/react-car-data-table/static/css/main.dd48d835.css.map",
+    "main.ff9cf40d.js.map": "/react-car-data-table/static/js/main.ff9cf40d.js.map",
+    "498.7a7d2592.chunk.js.map": "/react-car-data-table/static/js/498.7a7d2592.chunk.js.map",
+    "703.506b844b.chunk.js.map": "/react-car-data-table/static/js/703.506b844b.chunk.js.map",
+    "478.c4192677.chunk.js.map": "/react-car-data-table/static/js/478.c4192677.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.c06544d2.js",
-    "static/js/2.da97b454.chunk.js",
-    "static/css/main.171376f7.chunk.css",
-    "static/js/main.3dea9a65.chunk.js"
+    "static/css/main.dd48d835.css",
+    "static/js/main.ff9cf40d.js"
   ]
 }
