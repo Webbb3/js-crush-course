@@ -1,0 +1,162 @@
+.App {
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+h1,
+h4 {
+  color: #95818c;
+}
+
+.App-header {
+  background-color: #1f332f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #c861fb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h2 {
+  color: #2b4c45;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.modal label {
+  margin-bottom: 6px;
+  margin-top: 12px;
+  color: #49324b; /* Label text color */
+}
+
+.modal input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+  color: #545639;
+  border: 1px solid #819595;
+  border-radius: 5px;
+}
+
+.modal input[type="checkbox"] {
+  margin-top: 8px;
+  appearance: none; /* Remove default checkbox appearance */
+  width: 18px;
+  height: 18px;
+  border: 2px solid #273013;
+  border-radius: 4px;
+  position: relative;
+  transition: border-color 0.3s; /* Add transition effect to border color */
+}
+
+.modal input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 10px;
+  height: 10px;
+  background-color: #503962;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.3s; /* Add transition effect to opacity */
+}
+
+.modal input[type="checkbox"]:checked::before {
+  opacity: 1;
+}
+
+.modal-actions button {
+  margin-left: 8px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #8a77b5; /* Button background color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add transition effect to background color */
+}
+
+.modal-actions button:hover {
+  background-color: #485944; /* Darker color on hover */
+}
+
+.modal-actions button:focus {
+  outline: none; /* Remove focus outline */
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.blur-background {
+  filter: blur(5px);
+}
+
+.select-wrapper select {
+  width: 60px;
+  padding: 5px;
+  font-size: 14px;
+  color: #2c4538;
+  border: 1px solid #534569;
+  border-radius: 5px;
+  background-color: #fdf8c9;
+}
+
+.select-wrapper select option {
+  color: #4f7272;
+}
+
+.error {
+  color: red;
+}
