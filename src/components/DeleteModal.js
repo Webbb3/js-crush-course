@@ -1,4 +1,3 @@
-// DeleteModal.js
 import React from "react";
 
 const DeleteModal = ({ rowData, onClose, onConfirm }) => {
